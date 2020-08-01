@@ -124,3 +124,9 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'samklepdev@gmail.com'
+EMAIL_HOST_PASSWORD = '&BDzEx3LyPCp8H}zeoGsMc&QFP4rqrFKhEP'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
