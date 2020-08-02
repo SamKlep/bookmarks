@@ -139,4 +139,13 @@ EMAIL_USE_TLS = True
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
 ]
+
+SOCIAL_AUTH_FACEBOOK_KEY = '757512161735223'
+SOCIAL_AUTH_FACEBOOK_SECRET = '24914646565885599fdb71b75e92499b' # Facebook App Secret
+SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+
+SOCIAL_AUTH_TWITTER_KEY = 'djm069i2mL9uc0jSUbmV2Hs66' # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = 'elwlkpzdo9zM4OPUxRh53XmXIiWxgXSymv7XQnDGfg5kY8ptnB' # Twitter API Secret
