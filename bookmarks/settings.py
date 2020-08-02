@@ -133,3 +133,8 @@ EMAIL_HOST_USER = 'samklepdev@gmail.com'
 EMAIL_HOST_PASSWORD = '&BDzEx3LyPCp8H}zeoGsMc&QFP4rqrFKhEP'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
+]
