@@ -141,6 +141,7 @@ AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
     'social_core.backends.facebook.FacebookOAuth2',
     'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.google.GoogleOAuth2',
 ]
 
 SOCIAL_AUTH_FACEBOOK_KEY = '757512161735223'
@@ -149,3 +150,6 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
 SOCIAL_AUTH_TWITTER_KEY = 'djm069i2mL9uc0jSUbmV2Hs66' # Twitter API Key
 SOCIAL_AUTH_TWITTER_SECRET = 'elwlkpzdo9zM4OPUxRh53XmXIiWxgXSymv7XQnDGfg5kY8ptnB' # Twitter API Secret
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '830473001721-n1m50u7j9g8fslr3mb2a7cnrl84fpf7q.apps.googleusercontent.com' # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'gR2VUuFrZiCfXTFzeUPvGMY-' # Google Consumer Secret
